@@ -1,3 +1,4 @@
+/* default remove properties start here */
 .element {
   all: revert;
 }
@@ -5,6 +6,19 @@
   margin: 0;
   padding: 0;
 }
+div {
+  -ms-flex: 1; /* IE 10 */
+  flex: 1;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+/* default remove properties end here */
 /* Text styling */
 h1,
 h2,
@@ -45,7 +59,56 @@ p {
 .bg-green-100 {
   background-color: #0e6251;
 }
-
 .bg-green-75 {
   background-color: #48c9b0;
+}
+
+/* .bg-white {
+  background-color: #f4f6f7;
+} */
+
+ul li {
+  display: inline;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-item-right {
+  flex: 30%;
+  margin-left: auto;
+  order: 2;
+}
+
+.flex-item-left {
+  flex: 50%;
+}
+.float_right {
+}
+
+.center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.m-2 {
+  margin: 4px;
+}
+.p-1 {
+  padding: 2px;
+}
+.p-2 {
+  padding: 4px;
+}
+
+a:hover {
+  background-color: #f4f6f7;
 }
