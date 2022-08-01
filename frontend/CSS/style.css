@@ -1,3 +1,51 @@
 .element {
   all: revert;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Text styling */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+}
+
+.text-green-100 {
+  color: #0e6251;
+}
+.text-green-75 {
+  color: #48c9b0;
+}
+.text-green-25 {
+  color: #a3e4d7;
+}
+
+.text-white {
+  color: #f4f6f7;
+}
+
+.text-black-100 {
+  color: #17202a;
+}
+.text-black-75 {
+  color: #2c3e50;
+}
+.text-black-25 {
+  color: #abb2b9;
+}
+.bg-green-100 {
+  background-color: #0e6251;
+}
+
+.bg-green-75 {
+  background-color: #48c9b0;
+}
