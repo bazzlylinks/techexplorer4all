@@ -14,3 +14,5 @@ Fagbemiro Olayiwola @Jayderux
 
  Contributor - 
  Ogunniyi sodiq @jayce93 added an about us page section to Tech4all  
+ Contributor -
+ Ogunniyi sodiq added the bottom section of about us page
