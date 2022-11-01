@@ -257,6 +257,39 @@ img{
     box-shadow:inset 5px 5px 5px #c7c4c4, inset -5px -5px 5px #fff ;
 }
 
+
+/* Bottom Box Css Code  Starts*/
+
+.bottombox{
+    border-radius: 2px 4px 2px 4px;
+    border: 2px solid green ;
+    height:50vh;
+    width:100%;
+    background-color: lightgreen;
+    display: inline-flex;
+}
+.bottombox1{
+    width:33%;
+    height:50vh;
+    background-color: :#a3e4d7;
+    border: 2px solid green;
+}
+.bottombox2{
+    width:34%;
+    height:50vh;
+    background-color: :#a3e4d7;
+    border: 2px solid green;
+}
+.bottombox3{
+    width:33%;
+    height:50vh;
+    background-color: :#a3e4d7;
+    border: 2px solid green;
+}
+
+
+
+/* Bottom Box Css Code Ends  */
 @media only screen and  (max-width:440px){
     .nav-abt{
         width:100%;
