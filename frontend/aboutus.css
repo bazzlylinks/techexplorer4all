@@ -260,31 +260,43 @@ img{
 
 /* Bottom Box Css Code  Starts*/
 
-.bottombox{
-    border-radius: 2px 4px 2px 4px;
-    border: 2px solid green ;
-    height:50vh;
+.service{
+    background:#0e6251;
     width:100%;
-    background-color: lightgreen;
-    display: inline-flex;
+    padding:100px 0px;
 }
-.bottombox1{
-    width:33%;
-    height:50vh;
-    background-color: :#a3e4d7;
-    border: 2px solid green;
+
+.title h2{
+    color:white;
+    font-size:75px;
+    width:1130px;
+    margin: 30px auto;
+    text-align:center;
+
 }
-.bottombox2{
-    width:34%;
-    height:50vh;
-    background-color: :#a3e4d7;
-    border: 2px solid green;
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     min-height: 400px;
 }
-.bottombox3{
-    width:33%;
-    height:50vh;
-    background-color: :#a3e4d7;
-    border: 2px solid green;
+.card{
+    height: 365px;
+    width:335px;
+    padding:20px 35px;
+    background:#a3e4d7;
+    border-radius:20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+}
+h5{
+    color:#2c3e50;
+    font-size:16px;
+    line-height: 27px;
+    margin-bottom: 25px;
 }
 
 
