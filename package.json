@@ -1,0 +1,18 @@
+{
+  "name": "techexplorer",
+  "version": "1.0.0",
+  "description": "bazzlylinks",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "pro": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+    "build-js": "npx esbuild src/script.js --outfile=js/script.js --bundle --watch"
+  },
+  "author": "Alli bazeet",
+  "license": "MIT",
+  "dependencies": {
+    "alpinejs": "^3.12.0",
+    "esbuild": "^0.17.11",
+    "tailwindcss": "^3.2.7"
+  }
+}
