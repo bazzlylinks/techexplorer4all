@@ -1,0 +1,103 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #660066;
+}
+body { 
+    min-height: 100vh;
+    border:5px dotted white;
+    width: 100%;
+
+}
+
+/* figma challenge css start here */
+.uppercase{
+text-transform:uppercase;
+}
+.txt-white{
+    color:white;
+}
+.txt-black{
+    color:black;
+}
+.bg-white{
+    background-color:white;
+}
+.bg-black{
+    background-color:black;
+}
+
+.center{
+  margin: auto;
+  border: 3px solid white;
+}
+.p-40{
+    padding: 40px; 
+}
+.txt-center{
+text-align:center;
+}
+.p-10{
+    padding:10px;
+}
+.w-100p{
+width:100%;
+}
+.w-50p{
+width:50%;
+}
+.w-80p{
+width:80%;
+}
+.flex{
+    display:flex;
+}
+.size40x40{
+    height:40px;
+    width:40px;
+}
+
+.color-1{
+    background-color:#F24E1E;
+}
+.color-2{
+    background-color:#FF7262;
+}
+.color-3{
+    background-color:#A259FF;
+}
+.color-4{
+    background-color:#1ABCFE;
+}
+.color-5{
+    background-color:#0ACF83;
+}
+
+.border{
+    border-radius:40px;
+}
+.border-l{
+    border-radius:40px 0px 0px 40px;
+}
+
+.border-r{
+    border-radius:0px 40px 40px 0px;
+}
+
+.border-c{
+    border-radius:40px 0px 40px 40px;
+}
+/* 
+#F24E1E 
+#FF7262
+#A259FF
+#1ABCFE
+#0ACF83
+40px by 40px
+*/
+
+/* figma challenge css end here */
